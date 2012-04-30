@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link href="html5_style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="container">
+
+		<form action="demo_form.asp">
+  Select your favorite color: <input type="color" name="favcolor" />&nbsp;&nbsp;&nbsp;
+  
+<br></br>
+
+Birthday (date and time): <input type="datetime" name="bdaytime" /><br></br>
+
+  Birthday: <input type="date" name="bday" />
+  <input type="submit" />
+
+
+Quantity (between 1 and 5): <input type="number" name="quantity" min="1" max="5" /><br></br>
+
+
+ Enter a date after 2000-01-01:
+  <input type="date" name="bday" min="2000-01-02"><br /><br>
+
+Values with a step of 3:
+<input type="number" name="points" step="3" />
+<br /><br>
+
+Telephone: <input type="url" name="usrtel"  /><br />
+  
+
+Add your homepage: <input type="url" name="1" /><br />
+
+
+
+
+Username: <input type="text" name="usr_name" />
+Encryption: <keygen name="security" />
+
+<BR>
+
+
+
+</form>
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+<input type="range" name="a" value="50" />100
++<input type="number" name="b" value="50" />
+=<output name="x" for="a b"></output>
+</form>
+
+	</div>
+</body>
+</html>
+
